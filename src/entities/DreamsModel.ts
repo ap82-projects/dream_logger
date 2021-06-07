@@ -1,12 +1,14 @@
 import { Entity, Column, PrimaryGeneratedColumn, CreateDateColumn } from "typeorm";
 
 @Entity({ name: "dreams"})
-class Dream {
+export class Dream {
   @PrimaryGeneratedColumn("uuid")
   public id: string;
 
-  @CreateDateColumn()
-  public date: Date;
+  // @CreateDateColumn()
+  @Column()
+  // public date: Date;
+  public date: string;
 
   @Column()
   public was_lucid: boolean;

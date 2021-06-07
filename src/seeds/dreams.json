@@ -1,0 +1,34 @@
+[
+  {
+      "was_lucid": false,
+      "was_nightmare": false,
+      "summary": "Flying in the city.",
+      "description": "I slipped off a bridge and instead of falling I started to fly around the city.",
+      "last_meal_before_bed": "Pizza",
+      "last_activity_before_bed": "Cycling"
+  },
+  {
+      "was_lucid": true,
+      "was_nightmare": false,
+      "summary": "Conjuring food",
+      "description": "I was stuck in a desert and realized I was dreaming so I started to make food pop out of thin air.",
+      "last_meal_before_bed": "Nothing",
+      "last_activity_before_bed": "Studying"
+  },
+  {
+      "was_lucid": false,
+      "was_nightmare": true,
+      "summary": "Chased by a dragon.",
+      "description": "I walked outside and a dragon smashed my house and started to chase me though the neighborhood.",
+      "last_meal_before_bed": "Chicken",
+      "last_activity_before_bed": "Video Games"
+  },
+  {
+      "was_lucid": false,
+      "was_nightmare": false,
+      "summary": "Driving a toaster.",
+      "description": "Sat on a toaster with wheels and used it to drive around town.",
+      "last_meal_before_bed": "Bread and Butter",
+      "last_activity_before_bed": "Watching TV"
+  }
+]

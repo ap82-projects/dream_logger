@@ -1,0 +1,30 @@
+{
+  "name": "dream_logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev-ts": "nodemon src/index.ts",
+    "start-ts": "ts-node src/index.ts",
+    "dev": "nodemon -r dotenv/config src/server.js",
+    "start": "node -r dotenv/config src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ap82-projects/dream_logger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ap82-projects/dream_logger/issues"
+  },
+  "homepage": "https://github.com/ap82-projects/dream_logger#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "typeorm": "^0.2.34"
+  }
+}

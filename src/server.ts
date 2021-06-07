@@ -92,9 +92,9 @@ app.post("/api/dreams", async (req: Request, res: Response) => {
 app.put("/api/dreams/:id", async (req: Request, res: Response) => {
   const reply = await getRepository(Dream).update(req.params.id, req.body);
   return res.json(reply);
-})
+});
 
 app.delete("/api/dreams/:id", async (req: Request, res: Response) => {
   const reply = await getRepository(Dream).delete(req.params.id);
   return reply.affected ? res.sendStatus(200) : res.sendStatus(404);
-})
+});

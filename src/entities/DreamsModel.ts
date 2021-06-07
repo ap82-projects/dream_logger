@@ -25,9 +25,6 @@ class Dream {
 
   @Column()
   public last_activity_before_bed: string;
-  
-  @Column()
-  public keywords: string[];
 }
 
 export default Dream;

@@ -5,9 +5,7 @@ export class Dream {
   @PrimaryGeneratedColumn("uuid")
   public id: string;
 
-  // @CreateDateColumn()
   @Column()
-  // public date: Date;
   public date: string;
 
   @Column()
